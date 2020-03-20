@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'myLogin',
   data() {
     return {
       colArr: ['aqua', 'pink', '#77B6FF', '#73E9EE', '#F7D205', '#FFA3A3', '#C7B3FF', '#F5974E', '#FFFFFF', '#000000'],
@@ -38,7 +38,7 @@ export default {
 <style scoped>
 .hello{
   width: 100%;
-  height: 100vh;
+  height: calc(100vh);
   background: aqua;
   display: flex;
   justify-content: center;
@@ -54,6 +54,8 @@ export default {
   align-items: center;
   box-shadow: 2px linear-gradient(to left,pink,orange);
   cursor: pointer;
+  margin-bottom:20%;
+  opacity: 0.8;
 }
 .test_button_label{
   margin: 0 auto;
